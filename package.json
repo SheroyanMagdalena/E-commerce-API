@@ -1,0 +1,33 @@
+{
+  "name": "e-commerce-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+     "dev": "nodemon server.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheroyanMagdalena/E-commerce-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SheroyanMagdalena/E-commerce-API/issues"
+  },
+  "homepage": "https://github.com/SheroyanMagdalena/E-commerce-API#readme",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+  
+}
